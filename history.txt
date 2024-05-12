@@ -1,0 +1,154 @@
+  236  pwd
+  237  ls
+  238   /mnt
+  239  cd /mnt
+  240  pwd
+  241  ls
+  242  cs scratch-lustre/
+  243  ls
+  244  cd scratch-lustre/
+  245  pwd
+  246  ls
+  247  cd otijani
+  248  ls
+  249  mkdir CTA200_2024
+  250  LS
+  251  ls
+  252  mkdir CTA200_2024/assignment_1/README.md
+  253  mkdir CTA200_2024/assignment_1
+  254  ls
+  255  cd CTA200_2024/
+  256  LS
+  257  ls
+  258  touch README.md
+  259  ls
+  260  vi README.md 
+  261  ls
+  262  cat README.md 
+  263  cp /mnt/scratch-lustre/murray/Hello_world.py
+  264  cp /mnt/scratch-lustre/murray/Hello_world.py .
+  265  pwd
+  266  cd ../../murray
+  267  pwd
+  268  ls
+  269  cd ~
+  270  pwd
+  271  cd /home/murray
+  272  ls
+  273  cd scratch-lustre/
+  274  cd /mnt/scratch-lustre/otijani/CTA200_2024/
+  275  pwd
+  276  cd assignment_1/
+  277  pwd
+  278  cp /home/murray/Hello_world.py .
+  279  cp /home/murray/Hello_world.c .
+  280  pwd
+  281  ls
+  282  mv Hello_world{,tijani}.c
+  283  ls
+  284  mv Hello_world{,_}tijani.c
+  285  mv Hello_world{,_tijani}.py
+  286  lss
+  287  ls
+  288  gcc
+  289  gcc Hello_world_tijani.c
+  290  gcc Hello_world_tijani.c Hello_world.x
+  291  module list
+  292  module load gcc
+  293  module load gcc/11.2.0
+  294  module list
+  295  gcc Hello_world_tijani.c
+  296  gcc Hello_world_tijani.c Hello_world.x
+  297  ls
+  298  touch Hello_world.x
+  299  ls
+  300  gcc Hello_world_tijani.c Hello_world.x
+  301  ls
+  302  gcc -o Hello_world.x Hello_world_tijani.c
+  303  ls-la
+  304  ls -la
+  305  ./Hello_world.x 
+  306  Hello_world.x
+  307  ./Hello_world.py
+  308  ./Hello_world_tijani.py
+  309  module list
+  310  module load python
+  311  python Hello_world_tijani.py 
+  312  head Hello_world.c
+  313  head Hello_world_tijani.c
+  314  head Hello_world.x
+  315  head Hello_world_tijani.py
+  316  ls
+  317  pwd
+  318  vi Hello_world.py
+  319  ls
+  320  vi Hello_world_tijani.py
+  321  cat Hello_world_tijani.py
+  322  vi Hello_world_tijani.c
+  323  gcc Hello_world.x Hello_world_tijani.c
+  324  gcc Hello_world1.x Hello_world_tijani.c
+  325  ls
+  326  gcc -o Hello_world.x Hello_world_tijani.c
+  327  ./Hello_world.x
+  328  python 
+  329  pwd
+  330  python Hello_world_tijani.py 
+  331  vi Hello_world_tijani.py
+  332  python Hello_world_tijani.py 
+  333  cd /mnt/scratch-lustre/otijani/CTA200_2024/assignment_1/
+  334  ls
+  335  ./Hello_world.x
+  336  ./Hello_world.x > output_c.txt
+  337  ls -la
+  338  cat output_c.txt 
+  339  history
+  340  history > history.txt
+  341  ls
+  342  head history.tt
+  343  head history.tct
+  344  head history.txt
+  345  cat history.txt
+  346  git
+  347  pwd
+  348  ..
+  349  cd ..
+  350  pwd
+  351  git clone git@github.com:CITA/CTA200H.git
+  352  pwd
+  353  ls -la
+  354  git clone git@github.com:CITA/CTA200H.git
+  355  pwd
+  356  ls -la
+  357  whoami
+  358  cd
+  359  dir
+  360  ls -la
+  361  mkdir tmp
+  362  ls -la
+  363  cd tmp
+  364  ls -la
+  365  ls -la ..
+  366  ls -la .. > junk.txt
+  367  ls -la
+  368  git  clone git@github.com:CITA/CTA200H.git
+  369  pwd
+  370  ls -la
+  371  rm junk.txt 
+  372  git clone https://github.com/Semooretj/CTAtest.git
+  373  ls -la
+  374  cd CTAtest/
+  375  LS -LA
+  376  ls -la
+  377  git status
+  378  ls -la
+  379  ls -la /mnt/scratch-lustre/otijani/CTA200_2024/
+  380  ls
+  381  cp -r /mnt/scratch-lustre/otijani/CTA200_2024/* .
+  382  ls -la
+  383  git status
+  384  add README.md assignment_1/
+  385  git add README.md assignment_1/
+  386  git status
+  387  git commit
+  388  git status
+  389  git push
